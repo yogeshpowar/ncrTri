@@ -23,7 +23,7 @@ csv({
         e.na = (e.na || "").split(", ");
         e.avl =  [];
         for (let i = 1; i < 11; i++) {
-            if (0 && i == 2) {
+            if (false && i == 2) {
                 /* 17 nov: Ultra */
                 continue;
             }
@@ -48,7 +48,7 @@ csv({
 
     let ret = [];
 
-    for (let i = 2; i < 5; i++) {
+    for (let i = 0; i < 5; i++) {
         for (let j = i; j < 5; j++) {
             if (j == i) {
                 continue;
